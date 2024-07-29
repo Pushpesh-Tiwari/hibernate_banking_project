@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hibnate_proj">
+    <class name="Company" table="cmptable1">
+    <id name="regNo" column="registrationNo1"/>
+    <property name="compName" column="companyname1"/>
+    <property name="city" column="city1"/>
+    <property name="rank" column="rank1"/>
+    <property name="platform" column="platform1"/>
+    </class> 
+</hibernate-mapping>
+
